@@ -1,0 +1,136 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+section{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contentWrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+section img{
+ margin-top: 2.5rem;
+ width: 25%;
+}
+
+section h3{
+    margin-bottom: -0.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 95%);
+} 
+
+section p{
+margin: 2rem 0 2.5rem 0;
+font-weight: lighter;
+font-size: 1rem;
+line-height: 25px;
+color:  hsla(0, 0%, 100%, 0.75);
+
+
+}
+
+section button {
+    margin-bottom: 3.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    border: none;
+}
+
+#sedan {
+    margin-top: 4rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: hsl(31, 77%, 52%);
+}
+
+#sedan button{
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs{
+    background: hsl(184, 100%, 22%);
+}
+
+#suvs button{
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury{
+    background: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 4rem;
+}
+
+#luxury button{
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 1440px) {
+    #container{
+        margin: 0 auto;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5rem; 
+        padding-right: 5rem; 
+    }
+
+    #sedan{
+        margin-top: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+    }
+
+    #luxury{
+        margin-bottom: 0;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+
+    section{
+        height: 75%;
+    }
+
+    section img{
+        margin-top: 5rem;
+        width: 35%;
+       }
+
+       section h3{
+        margin-bottom: -0.5rem;
+        font-size: 4rem;
+    } 
+
+    section p{
+        margin: 2rem 0 5rem 0;
+        font-size: 1.5rem;
+        line-height: 40px;
+        }
+
+        section button {
+            border-radius: 35px;
+            margin-bottom: 1rem;
+            padding: 1.25rem 3.25rem 1.25rem 3.25rem;
+            font-size: 1.5rem;
+        }
+  }
