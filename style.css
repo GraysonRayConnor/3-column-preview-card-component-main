@@ -46,8 +46,6 @@ font-weight: lighter;
 font-size: 1rem;
 line-height: 25px;
 color:  hsla(0, 0%, 100%, 0.75);
-
-
 }
 
 section button {
@@ -133,7 +131,10 @@ section button {
         border-top-right-radius: 15px;
     }
 
-    
+    section {
+        min-height: 773px;
+        max-height: 773px;
+    }
 
     section img{
         margin-top: 5rem;
@@ -146,9 +147,10 @@ section button {
     } 
 
     section p{
-        margin: 2rem 0 5rem 0;
+        margin: 2rem 0 9rem 0;
         font-size: 1.5rem;
         line-height: 40px;
+        max-height: 200px;
         }
 
         section button {
