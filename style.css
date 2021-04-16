@@ -11,7 +11,7 @@ html, body{
     overflow-x: hidden;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: -2rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 section{
@@ -40,8 +40,11 @@ section h3{
     color: hsl(0, 0%, 95%);
 } 
 
+.para{
+    margin: 2rem 0 2.5rem 0;
+}
+
 section p{
-margin: 2rem 0 2.5rem 0;
 font-weight: lighter;
 font-size: 1rem;
 line-height: 25px;
@@ -107,15 +110,17 @@ section button {
 
 
 @media only screen and (min-width: 1000px) {
+    body{
+        overflow-y: hidden;
+    }
+
     #container{
         margin: 0 auto;
         height: 100%;
-        width: 90%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        padding-left: 5rem; 
-        padding-right: 5rem; 
+        padding: 5rem;
     }
 
     #sedan{
@@ -131,32 +136,43 @@ section button {
         border-top-right-radius: 15px;
     }
 
-    section {
-        min-height: 773px;
-        max-height: 773px;
+    section{
+        width: 33.33%;
+        
     }
 
+
     section img{
-        margin-top: 5rem;
-        width: 35%;
+        margin-top: 3rem;
+        width: 30%;
+        margin-bottom: -0.5rem;
        }
 
        section h3{
         margin-bottom: -0.5rem;
-        font-size: 4rem;
+        font-size: 2.65rem;
     } 
 
+    .para{
+        margin: 1.75rem 0 3rem 0;
+        height: 9rem;
+        width: 100%;
+    }
+
     section p{
-        margin: 2rem 0 9rem 0;
-        font-size: 1.5rem;
-        line-height: 40px;
-        max-height: 200px;
+        font-size: 0.90rem;
+        line-height: 25px;
+       
         }
 
         section button {
             border-radius: 35px;
-            margin-bottom: 4rem;
-            padding: 1.25rem 3.25rem 1.25rem 3.25rem;
-            font-size: 1.5rem;
+            padding: 0.75rem 2rem 0.75rem 2rem;
+            font-size: 0.85rem;
+        }
+
+        .attribution {
+            margin-top: -12rem;
+
         }
   }
