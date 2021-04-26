@@ -57,6 +57,32 @@ section button {
     border-radius: 25px;
     font-size: 0.85rem;
     border: none;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 0.3s;
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+
+}
+
+#btn1:hover{
+    text-decoration-color: hsl(31, 77%, 52%);
+    -webkit-text-decoration-color: hsl(31, 77%, 52%);
+    -moz-text-decoration-color: hsl(31, 77%, 52%);
+}
+
+
+#btn2:hover{
+    text-decoration-color: hsl(184, 100%, 22%);
+    -webkit-text-decoration-color: hsl(184, 100%, 22%);
+    -moz-text-decoration-color: hsl(184, 100%, 22%);
+}
+
+
+#btn3:hover{
+    text-decoration-color: hsl(179, 100%, 13%);
+    -webkit-text-decoration-color: hsl(179, 100%, 13%);
+    -moz-text-decoration-color: hsl(179, 100%, 13%);
 }
 
 #sedan {
